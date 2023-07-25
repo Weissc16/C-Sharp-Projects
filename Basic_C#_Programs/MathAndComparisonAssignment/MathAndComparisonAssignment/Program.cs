@@ -16,13 +16,16 @@ namespace MathAndComparisonAssignment
             Console.Write("What is your hourly rate? ");
             string hourlyRate = Console.ReadLine();
             double rateHourly = Convert.ToDouble(hourlyRate);
+
             Console.Write("How many hours do you work per week? ");
             string weeklyHours = Console.ReadLine();
             int hoursWeekly = Convert.ToInt32(weeklyHours);
+
             Console.WriteLine("Person 2");
             Console.Write("What is your hourly rate? ");
             string hourlyRate2 = Console.ReadLine();
             double rateHourly2 = Convert.ToDouble(hourlyRate2);
+
             Console.Write("How many hours do you work per week? ");
             string weeklyHours2 = Console.ReadLine();
             int hoursWeekly2 = Convert.ToInt32(weeklyHours2);
