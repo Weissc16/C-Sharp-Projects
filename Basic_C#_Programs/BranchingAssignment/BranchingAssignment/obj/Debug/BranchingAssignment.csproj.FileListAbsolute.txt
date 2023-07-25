@@ -1,0 +1,6 @@
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BranchingAssignment\BranchingAssignment\bin\Debug\BranchingAssignment.exe.config
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BranchingAssignment\BranchingAssignment\bin\Debug\BranchingAssignment.exe
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BranchingAssignment\BranchingAssignment\bin\Debug\BranchingAssignment.pdb
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BranchingAssignment\BranchingAssignment\obj\Debug\BranchingAssignment.csproj.CoreCompileInputs.cache
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BranchingAssignment\BranchingAssignment\obj\Debug\BranchingAssignment.exe
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BranchingAssignment\BranchingAssignment\obj\Debug\BranchingAssignment.pdb
