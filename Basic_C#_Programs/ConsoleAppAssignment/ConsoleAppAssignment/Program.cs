@@ -10,6 +10,13 @@ namespace ConsoleAppAssignment
     {
         static void Main(string[] args)
         {
+            int i = 10;
+            while (i > 0)
+            {
+                Console.WriteLine(i);
+                i--;
+            }
+
             Console.WriteLine("I'm thinking of a number from 1 to 10, can you guess it?");
             int number = Convert.ToInt32(Console.ReadLine());
 
