@@ -11,15 +11,21 @@ namespace IterateAssignment
         static void Main(string[] args)
         {
             //Pt 1 steps 1-4
-            string[] userArray = { "My favorite number is ", "My age is ", "Miles I ran today is " };
+            Console.WriteLine("Please Enter 6 new words");
+            string[] array = new string[6];
 
-            Console.WriteLine("What is your favorite number?");
-            string num = Console.ReadLine();
-
-            for (int i = 0; i < userArray.Length; i++)
+            for (int i = 0; i < 6; i++)
             {
-                Console.WriteLine(userArray[i] + num);
+                array[i] = Convert.ToString(Console.ReadLine());
             }
+            Console.WriteLine("Press any key to print the words you input");
+            Console.ReadLine();
+            foreach (string item in array)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
+
 
             Console.ReadLine();
 
@@ -59,16 +65,17 @@ namespace IterateAssignment
 
 
             //loop that tells if the input the user input is in the string or not. Pt. 4 step #1 thru 5
-            string[] colors = { "Red", "Blue", "Yellow", "Green", "Orange", "Black", "White", "Purple", "Pink", "Teal" };
+            List<string> colorList = new List<string>() { "Red", "Blue", "Yellow", "Green", "Orange", "Black", "White", "Purple", "Pink", "Teal" };
 
             Console.WriteLine("Pick a Color (please capitalize your color)");
             string userColor = Console.ReadLine();
+            int ind = colorList.IndexOf(userColor);
 
-            for (int c = 0; c < colors.Length; c++)
+            for (int c = 0; c < colorList.Count; c++)
             {
-                if (colors.Contains(userColor))
+                if (colorList.Contains(userColor))
                 {
-                    Console.WriteLine("Your Color " + userColor + " is in the list");
+                    Console.WriteLine("Your Color " + userColor + " is in the list at index " + ind);
                     break;
                 }
                 else
@@ -92,13 +99,13 @@ namespace IterateAssignment
 
             Console.WriteLine("What type of flower do you like?");
             string flower = Console.ReadLine();
-            int index = stringList.FindIndex(a => a.Contains(flower));
+            int index = stringList.Item(flower);
 
             for (var f = 0; f < stringList.Count; f++)
             {
                 if (stringList.Contains(flower))
                 {
-                    Console.WriteLine("We found your flower at index " + index);
+                    Console.WriteLine("We found your flower at index " + index + "and "+ index2);
                     break;
                 }
                 else
