@@ -15,14 +15,14 @@ namespace TryCatchAssignment
                 Console.WriteLine("What number should we use to divide by?");
                 int divideNum = Convert.ToInt32(Console.ReadLine());
 
-                List<double> divideList = new List<double>();
-                divideList.Add(10.0);
-                divideList.Add(17.0);
-                divideList.Add(29.0);
-                divideList.Add(34.0);
-                divideList.Add(42.0);
+                List<int> divideList = new List<int>();
+                divideList.Add(10);
+                divideList.Add(17);
+                divideList.Add(29);
+                divideList.Add(34);
+                divideList.Add(42);
 
-                foreach (double num in divideList)
+                foreach (int num in divideList)
                 {
                     Console.WriteLine(num + " divided by " + divideNum + " equals: " + num / divideNum);
                 }
