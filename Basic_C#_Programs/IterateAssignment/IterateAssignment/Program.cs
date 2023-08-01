@@ -11,23 +11,20 @@ namespace IterateAssignment
         static void Main(string[] args)
         {
             //Pt 1 steps 1-4
-            Console.WriteLine("Please Enter 6 new words");
-            string[] array = new string[6];
+            string[] array = new string[] { "Cody", "Tom", "Dale", "Travis", "Theo" };
+            Console.WriteLine("Please enter some text");
+            string userText = Console.ReadLine();
 
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < array.Length; i++)
             {
-                array[i] = Convert.ToString(Console.ReadLine());
+                array[i] = array[i] + userText;
             }
-            Console.WriteLine("Press any key to print the words you input");
-            Console.ReadLine();
-            foreach (string item in array)
+            for (int i = 0; i < array.Length; i++)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(array[i]);
             }
             Console.ReadLine();
-
-
-            Console.ReadLine();
+            
 
             //infinite loop without using "break;"  fixed by adding "break;" Pt 2 steps 1-4
             while (true)
@@ -54,7 +51,7 @@ namespace IterateAssignment
 
             int[] Scores = { 95, 90, 88, 72, 95, 90, 67, 75, 62, 50 };
 
-            for (int x = 0; x < Scores.Length; x++)
+            for (int x = 0; x <= 9; x++)
             {
                 if (Scores[x] <= 75)
                 {
@@ -99,16 +96,14 @@ namespace IterateAssignment
 
             Console.WriteLine("What type of flower do you like?");
             string flower = Console.ReadLine();
-            int index = stringList.Item(flower);
 
             for (var f = 0; f < stringList.Count; f++)
             {
-                if (stringList.Contains(flower))
+                if (flower == stringList[f])
                 {
-                    Console.WriteLine("We found your flower at index " + index + "and "+ index2);
-                    break;
+                    Console.WriteLine("We found your flower at index " + f);
                 }
-                else
+                else if (!stringList.Contains(flower))
                 {
                     Console.WriteLine("Sorry we do not have your flower type");
                     break;
@@ -119,11 +114,19 @@ namespace IterateAssignment
 
             //Pt 6 step 1-4
             List<string> sportsList = new List<string>() { "Baseball", "Basketball", "Football", "Soccer", "Baseball" };
-            IEnumerable<string> result = sportsList.Distinct();
+            List<string> dupList = new List<string>();
 
-            foreach (var name in result)
+            foreach (var name in sportsList)
             {
-                Console.WriteLine(name);
+                if (dupList.Contains(name))
+                {
+                    Console.WriteLine(name + " is a duplicate");
+                }
+                else 
+                {
+                    Console.WriteLine(name + " is unique");
+                    dupList.Add(name);
+                }
             }
             Console.ReadLine();
         }
