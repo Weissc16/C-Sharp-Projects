@@ -1,0 +1,7 @@
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\CallingMethodAssignment\CallingMethodAssignment\bin\Debug\CallingMethodAssignment.exe.config
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\CallingMethodAssignment\CallingMethodAssignment\bin\Debug\CallingMethodAssignment.exe
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\CallingMethodAssignment\CallingMethodAssignment\bin\Debug\CallingMethodAssignment.pdb
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\CallingMethodAssignment\CallingMethodAssignment\obj\Debug\CallingMethodAssignment.csproj.AssemblyReference.cache
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\CallingMethodAssignment\CallingMethodAssignment\obj\Debug\CallingMethodAssignment.csproj.CoreCompileInputs.cache
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\CallingMethodAssignment\CallingMethodAssignment\obj\Debug\CallingMethodAssignment.exe
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\CallingMethodAssignment\CallingMethodAssignment\obj\Debug\CallingMethodAssignment.pdb
