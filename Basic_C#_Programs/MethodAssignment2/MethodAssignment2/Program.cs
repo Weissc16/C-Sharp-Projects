@@ -25,7 +25,7 @@ namespace MethodAssignment2
                 result = myMethod.IntClass(userValue);
             }
 
-            Console.WriteLine((result);
+            Console.WriteLine(result);
             Console.ReadLine();
             
         }
