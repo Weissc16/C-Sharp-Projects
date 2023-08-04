@@ -1,0 +1,7 @@
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\PersonAbstractAssignment\PersonAbstractAssignment\bin\Debug\PersonAbstractAssignment.exe.config
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\PersonAbstractAssignment\PersonAbstractAssignment\bin\Debug\PersonAbstractAssignment.exe
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\PersonAbstractAssignment\PersonAbstractAssignment\bin\Debug\PersonAbstractAssignment.pdb
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\PersonAbstractAssignment\PersonAbstractAssignment\obj\Debug\PersonAbstractAssignment.csproj.AssemblyReference.cache
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\PersonAbstractAssignment\PersonAbstractAssignment\obj\Debug\PersonAbstractAssignment.csproj.CoreCompileInputs.cache
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\PersonAbstractAssignment\PersonAbstractAssignment\obj\Debug\PersonAbstractAssignment.exe
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\PersonAbstractAssignment\PersonAbstractAssignment\obj\Debug\PersonAbstractAssignment.pdb
