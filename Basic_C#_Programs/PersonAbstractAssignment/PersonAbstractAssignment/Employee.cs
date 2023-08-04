@@ -12,5 +12,10 @@ namespace PersonAbstractAssignment
         {
             Console.WriteLine("Name " + firstName + lastName);
         }
+        public void Quit()
+        {
+            Console.WriteLine("I quit");
+        }
     }
 }
+s
