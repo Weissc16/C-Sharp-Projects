@@ -18,7 +18,7 @@ namespace ClassMethodAssignment
             userNum.DivideNum(x);
             Console.ReadLine();
 
-            Console.WriteLine("Enter another number to divide by 2:");
+            Console.WriteLine("Enter another number.");
 
             DivideClass userNum2 = new DivideClass();
 
