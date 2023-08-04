@@ -17,12 +17,12 @@ namespace MainMethodAssignment
 
             myClass subMethod = new myClass();
 
-            Console.WriteLine(subMethod.subtraction((decimal)2.31111323));
+            Console.WriteLine(subMethod.addition((decimal)2.31111323));
             Console.ReadLine();
 
             myClass multMethod = new myClass();
 
-            Console.WriteLine(multMethod.multiplication("3"));
+            Console.WriteLine(multMethod.addition("3"));
             Console.ReadLine();
         }
     }

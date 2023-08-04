@@ -12,13 +12,13 @@ namespace MainMethodAssignment
         {
             return num + 5;
         }
-        public decimal subtraction(decimal num2)
+        public int addition(decimal num2)
         {
             decimal v = num2 - 1;
             return Convert.ToInt32(v);            
         }
 
-        public int multiplication(string num3)
+        public int addition(string num3)
         {
             string x = num3;
             int y = Convert.ToInt32(x);
