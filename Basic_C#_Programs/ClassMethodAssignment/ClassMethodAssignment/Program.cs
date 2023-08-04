@@ -26,6 +26,9 @@ namespace ClassMethodAssignment
             DivideClass.DivideNum(out int number, " is a great number");
             Console.ReadLine();
 
+            MyStaticClass.MyStaticMethod();
+            Console.ReadLine();
+
         }
     }
 }
