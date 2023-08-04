@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace PersonAbstractAssignment
 {
-    public abstract class Person
+    interface IQuittable
     {
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-
-        public abstract void SayName();
     }
 }
