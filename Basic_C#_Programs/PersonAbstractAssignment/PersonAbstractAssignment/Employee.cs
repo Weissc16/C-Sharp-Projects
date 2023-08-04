@@ -8,9 +8,9 @@ namespace PersonAbstractAssignment
 {
     public class Employee : Person
     {
-        public override void SayName()
+        public void SayName()
         {
-            base.SayName();
+            Console.WriteLine("Name: " + firstName + lastName);
         }
     }
 }
