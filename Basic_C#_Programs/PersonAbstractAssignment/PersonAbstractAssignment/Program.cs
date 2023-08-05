@@ -10,13 +10,31 @@ namespace PersonAbstractAssignment
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee() { firstName = "Sample ", lastName = "Student" };
+            Employee<string> Stuff = new Employee<string>();
+            Stuff.Things = new List<string>() { "Pencils", "Paper", "Notebooks", "ID", "Computer" };
+
+            Employee<int> ID = new Employee<int>();
+            ID.Things = new List<int>() { 12345, 12346, 12347, 12348, 12349 };
+
+            foreach (string name in Stuff.Things) 
+            {
+                Console.WriteLine(name);
+            }
+
+            foreach (int num in ID.Things) 
+            {
+                Console.WriteLine(num);
+            }
+
+            Employee<string> employee = new Employee<string>() { firstName = "Sample ", lastName = "Student" };
 
             employee.SayName();
             Console.ReadLine();
 
-            Employee Quittable = new Employee();
+            Employee<string> Quittable = new Employee<string>();
             Quittable.Quit();
+            
+
         }
     }
 }

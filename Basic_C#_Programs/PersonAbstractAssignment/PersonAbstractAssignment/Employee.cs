@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace PersonAbstractAssignment
 {
-    public class Employee : Person, IQuittable
+    public class Employee<T> : Person, IQuittable
     {
-        public static bool operator== (Employee employee, Employee employee2)
+        public List<T> Things { get; set; }
+
+
+        public static bool operator ==(Employee<T> employee, Employee<T> employee2)
         {
             if (employee.id == employee2.id)
             {
@@ -19,7 +22,7 @@ namespace PersonAbstractAssignment
                 return false;
             }
         }
-        public static bool operator !=(Employee employee, Employee employee2)
+        public static bool operator !=(Employee<T> employee, Employee<T> employee2)
         {
             if (employee.id != employee2.id)
             {
