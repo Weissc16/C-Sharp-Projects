@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PersonAbstractAssignment
 {
-    public class Employee : Person
+    public class Employee : Person, IQuittable
     {
         public override void SayName()
         {

@@ -15,7 +15,8 @@ namespace PersonAbstractAssignment
             employee.SayName();
             Console.ReadLine();
 
-            IQuittable quittable = new IQuittable()
+            Employee Quittable = new Employee();
+            Quittable.Quit();
         }
     }
 }
