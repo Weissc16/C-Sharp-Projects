@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A9C061A8-C85E-4041-981C-BF74DFAA1D32}</ProjectGuid>
+    <ProjectGuid>{E22ED6B9-488A-4464-B0F1-DB5C3CB9FAA8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TwentyOne</RootNamespace>
-    <AssemblyName>TwentyOne</AssemblyName>
+    <RootNamespace>ParsingEnumsAssignment</RootNamespace>
+    <AssemblyName>ParsingEnumsAssignment</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Card.cs" />
-    <Compile Include="Dealer.cs" />
-    <Compile Include="Deck.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="IWalkAway.cs" />
-    <Compile Include="Player.cs" />
+    <Compile Include="Days.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwentyOneGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
