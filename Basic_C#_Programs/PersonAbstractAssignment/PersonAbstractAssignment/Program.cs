@@ -31,7 +31,7 @@ namespace PersonAbstractAssignment
             employee.SayName();
             Console.ReadLine();
 
-            Employee<string> Quittable = new Employee<string>();
+            IQuittable Quittable = new Employee<string>();
             Quittable.Quit();
             
 
