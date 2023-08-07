@@ -1,0 +1,7 @@
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StructureChallenge\StructureChallenge\bin\Debug\StructureChallenge.exe.config
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StructureChallenge\StructureChallenge\bin\Debug\StructureChallenge.exe
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StructureChallenge\StructureChallenge\bin\Debug\StructureChallenge.pdb
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StructureChallenge\StructureChallenge\obj\Debug\StructureChallenge.csproj.AssemblyReference.cache
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StructureChallenge\StructureChallenge\obj\Debug\StructureChallenge.csproj.CoreCompileInputs.cache
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StructureChallenge\StructureChallenge\obj\Debug\StructureChallenge.exe
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StructureChallenge\StructureChallenge\obj\Debug\StructureChallenge.pdb
