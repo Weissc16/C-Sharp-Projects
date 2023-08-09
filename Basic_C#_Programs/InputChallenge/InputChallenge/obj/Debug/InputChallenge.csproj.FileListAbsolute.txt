@@ -1,0 +1,7 @@
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\InputChallenge\InputChallenge\bin\Debug\InputChallenge.exe.config
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\InputChallenge\InputChallenge\bin\Debug\InputChallenge.exe
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\InputChallenge\InputChallenge\bin\Debug\InputChallenge.pdb
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\InputChallenge\InputChallenge\obj\Debug\InputChallenge.csproj.AssemblyReference.cache
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\InputChallenge\InputChallenge\obj\Debug\InputChallenge.csproj.CoreCompileInputs.cache
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\InputChallenge\InputChallenge\obj\Debug\InputChallenge.exe
+C:\Users\weiss\OneDrive\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\InputChallenge\InputChallenge\obj\Debug\InputChallenge.pdb
