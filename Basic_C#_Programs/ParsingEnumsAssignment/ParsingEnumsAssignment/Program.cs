@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static ParsingEnumsAssignment.Days;
 
 namespace ParsingEnumsAssignment
 {
@@ -16,7 +17,7 @@ namespace ParsingEnumsAssignment
                 string dayUser = Console.ReadLine();
 
                 //Days day = Enum.Parse(Days.DaysOfTheWeek);
-                Days.DaysOfTheWeek day = (Days.DaysOfTheWeek)Enum.Parse(typeof(Days.DaysOfTheWeek), dayUser);
+                DaysOfTheWeek day = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek), dayUser);
 
 
                 Console.WriteLine(day);
